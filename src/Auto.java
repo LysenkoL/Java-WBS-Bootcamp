@@ -1,6 +1,6 @@
 public class Auto {
-    public String marke;
-    public String modell;;
+    private String marke;
+    private String modell;;
     private int baujahr;
 
     public Auto(String marke, String modell, int baujahr){

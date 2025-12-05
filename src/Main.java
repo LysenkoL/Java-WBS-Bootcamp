@@ -18,6 +18,10 @@ public class Main {
 
         int baujahr = auto1.getBaujahr();
         System.out.println("Das aktuelle Baujahr ist " + baujahr);
+
+        Buch buch1 = new Buch("java", "R.Müller", 549, "Fachbuch", true, 4.5);
+
+        buch1.zeigeInfo();
     }
 }
 
