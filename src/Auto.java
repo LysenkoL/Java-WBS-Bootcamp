@@ -19,5 +19,24 @@ public class Auto {
     public void setBaujahr(int baujahr) {
         this.baujahr = baujahr;
     }
+
+    // ######################## Hausafgabe Tag 5
+    public void setMarke(String marke) {
+        this.marke = marke;
+    }
+    public void setModell(String modell) {
+        this.modell = modell;
+    }
+    public String getMarke() {return this.marke;}
+    public String getModell() {return this.modell;}
+    public int berechneAlter(int aktuellesJahr){
+        return aktuellesJahr - baujahr;
+    }
+    public boolean istNeu(int aktuellesJahr){
+        if (aktuellesJahr-baujahr < 3) {
+            return true;}
+        return false;
+    }
+
 }
 
