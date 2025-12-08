@@ -4,6 +4,8 @@ import java.util.Scanner;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
+
+        /* ############# Auto
         Auto auto1 = new Auto ( "Audi", "A4",  2008);
         Auto auto2 = new Auto ( "VW",  "Jetta",  2018);
         Auto auto3 = new Auto ( "Mitsubishi",  "Outlander",  2023);
@@ -31,10 +33,39 @@ public class Main {
         System.out.println("Ist das Auto noch neu? " +  auto3.istNeu(2025));
 
 
+        Fahrzeug auto = new Auto2("VW", "Passat", "rot", "diesel", 2022,
+                12.07,4);
+        auto.zeigeInfos();
+
+
+        Fahrzeug lkw = new LKW("DAF", "XF400", "weiß", "diesel", 2024,
+                500, 36);
+        lkw.zeigeInfos();
+
+
+        Fahrzeug Motorrad = new Motorrad("Jamaha", "Neu", "blau", "benzin", 2023, 15, true);
+        Motorrad.zeigeInfos();
+        */
+
+
+        /* ##################Buch
 
         Buch buch1 = new Buch("java", "R.Müller", 549, "Fachbuch", true, 4.5);
 
         buch1.zeigeInfo();
+
+        */
+
+        // ################ Tiere
+
+        Tier Tier = new Tier("Elephant", 52);
+        Tier.beschreibung();
+
+        Tier Hund = new Hund("Rex", 12, "Doberman", 112);
+        Hund.beschreibung();
+
+        Tier Katze = new Katze ("Schuster", 15, "braun mit schwarz", 105);
+        Katze.beschreibung();
 
 
 
