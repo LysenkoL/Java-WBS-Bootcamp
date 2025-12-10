@@ -27,7 +27,7 @@
  */
 
 
-enum Aufgabestatus {
+/*enum Aufgabestatus {
     // Определение фиксированного набора констант (Status-Werte).
     // Эти константы - единственные возможные значения для типа Aufgabestatus.
     OFFEN, // Открыта (Задача еще не начата)
@@ -71,3 +71,4 @@ public class ProjektManagement {
         }
     }
 }
+*/

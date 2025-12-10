@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
@@ -56,7 +57,7 @@ public class Main {
 
         */
 
-        // ################ Tiere
+        /* ################ Tiere
 
         Tier Tier = new Tier("Elephant", 52);
         Tier.beschreibung();
@@ -66,6 +67,24 @@ public class Main {
 
         Tier Katze = new Katze ("Schuster", 15, "braun mit schwarz", 105);
         Katze.beschreibung();
+        */
+
+
+
+        ToDoElement e = new ToDoElement("Купить хлеб");
+
+        // 1. Печатаем объект напрямую
+        System.out.println("Печатаю объект напрямую:");
+        System.out.println(e);  // <-- если toString закомментирован, выведет адрес
+
+        // 2. Печатаем через getAufgabe()
+        System.out.println("Печатаю через getAufgabe():");
+        System.out.println(e.getAufgabe());  // <-- ВСЕГДА выведет строку
+
+        // 3. Печатаем через конкатенацию
+        System.out.println("Печать в строке:");
+        System.out.println("Задача: " + e);  // <-- снова вызывает toString()
+
 
 
 
