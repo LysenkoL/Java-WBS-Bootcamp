@@ -87,6 +87,17 @@ public class Hauptklasse {
             System.out.print("Ihre Wahl: ");
             eingabe = scanner.nextLine();
 
+            switch (eingabe){
+                case "1":
+                    System.out.print("Geben Sie die Aufgabe ein: ");
+                    String neueAufgabe = scanner.nextLine();
+                    toDoListe.fuegeElementHinzu(neueAufgabe);
+                    break;
+                case "2":
+                    System.out.println("");
+
+            }
+
 
         }
     }
