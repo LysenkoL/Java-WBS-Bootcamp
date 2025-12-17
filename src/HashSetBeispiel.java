@@ -1,4 +1,5 @@
 import java.util.HashSet;
+import java.util.Objects;
 import java.util.Set;
 
 public class HashSetBeispiel {
@@ -40,7 +41,43 @@ public class HashSetBeispiel {
         /* Schneller Zugriff: HashSet bietet 0(1) für Hinzufügen, Entfernen und Überprüfen von Elementen.
         Operation konstant ist und unaghängig von der Größe der Datenstruktur bliebt, sodass die zeit für das hinzufügen,
         Enfernen oder Prüfen eines Elements gleich bleibt, egal wie viel elemente sich in der Sammlung befinden.
-        Ungeordnete Sammlung: HashSet speichert Elemente ohne eine beistimmte Reihenfolge.
+        Ungeordnete Sammlung: HashSet speichert Elemente ohne eine beistimmte Reihenfolge. Schneller Zugriff:
+         HashSet bietet O(1) für Hinzufügen, Entfernen und Überprüfen von Elementen.
+           Der Wert O(1) ist einen Notation aus der Informatik, die beschreibt, dass die Zeitkomplexität einer
+           Operation konstant ist und unabhängig von der Größe der Datenstruktur bleibt, sodass die Zeit für
+           das hinzufüge, Entfernen oder Prüfen eines Elements gleich bleibt, egal wie viel Elemente sich in
+           der Sammlung befinden.
+           Ungeordnete Sammlung: HashSet speichert Elemente ohne eine bestimmte Reihenfolge
          */
+        // Ein HashSet speichert Elemente ohne Duplikate und in keiner bestimmten Reihenfolge
+        // Warum HashSet verwenden?
+        /*
+         * 1. Schnelle Suche, ermöglicht eine schnelle Überprüfung ob ein Element vorhanden ist.
+         * 2. Keine Dublikate: speichert nur eindeutige Elemente, was nützlich ist, wenn Dublikate vermieden werden sollen.
+         * 3. Ungeordnete Sammlung: Wenn die Reihenfolge der Elemente nicht wichtig ist.
+         */
+        HashSet<String> set = new HashSet<>();
+        set.add("Apfel");
+        set.add("Banane");
+        set.add("Orange");
+        set.add("Apfel"); // Das Element "Apfel" wird ignoriert beim hinzufügen da HashSet keine Dublikate zulässt.
+
+        // Der Inhalt kann bei der Ausgabe variieren da es keine bestimmte Reihenfolge im HashSet gibt
+        System.out.println("Inhalt des HashSet: ");
+        Object[] fruchtArray = set.toArray();
+        for (int i = 0; i < fruchtArray.length; i++) {
+            System.out.println(fruchtArray[i]);
+        }
+        //Überprüft ob eine bestimmte Elemente vorhanden ist
+        if (set.contains("Banane")){
+            System.out.println("Das HS enthält die Banane");
+        }
+        else System.out.println("Das HS enthält keine Banane");
+
+        //Entfernen eine Elementes
+        set.remove("Orange");
+
+        //Große HashSet
+        System.out.println("Die Große HS: " + set.size());
     }
 }
