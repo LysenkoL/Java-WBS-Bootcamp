@@ -52,18 +52,18 @@ public class WrapperKlassenBeispiel {
         Character buchstabe = 'A';
         System.out.println("Der Buchstabe ist: " + buchstabe);
 
-        int primitiveZahl = 77;
+
 
         ArrayList<Integer> zahlenNeu = new ArrayList<>();
         zahlenNeu.add(10);
         zahlenNeu.add(20);
         zahlenNeu.add(30);
-        zahlenNeu.add(primitiveZahl);
+        
         System.out.println(zahlenNeu);
         Integer ersteZahlNeu = zahlenNeu.get(0);
         System.out.println(ersteZahlNeu);
 
-
+        int primitiveZahl = 77;
         Integer wrapperZahl = Integer.valueOf(primitiveZahl);
         System.out.println("Primitive int - Wert: " + primitiveZahl);
         System.out.println("Wrapper Integer - Wert: " + wrapperZahl);
