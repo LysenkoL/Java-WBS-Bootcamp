@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Tag 02 Klassen/Tag 02 Klassen.iml" filepath="$PROJECT_DIR$/Tag 02 Klassen/Tag 02 Klassen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tag1/Tag1.iml" filepath="$PROJECT_DIR$/Tag1/Tag1.iml" />
       <module fileurl="file://$PROJECT_DIR$/java.iml" filepath="$PROJECT_DIR$/java.iml" />
     </modules>
   </component>

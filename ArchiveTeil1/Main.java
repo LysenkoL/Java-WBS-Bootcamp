@@ -71,7 +71,7 @@ public class Main {
 
 
 
-        ToDoElement e = new ToDoElement("Купить хлеб");
+        /*ToDoElement e = new ToDoElement("Купить хлеб");
 
         // 1. Печатаем объект напрямую
         System.out.println("Печатаю объект напрямую:");
@@ -84,10 +84,46 @@ public class Main {
         // 3. Печатаем через конкатенацию
         System.out.println("Печать в строке:");
         System.out.println("Задача: " + e);  // <-- снова вызывает toString()
+*/
+
+    /*Teil2Auto auto = new Teil2Auto();
+    auto.geschwindigkeitKmH = 50;
+        System.out.println(auto.getZuruekgelegteStrecke());
+        auto.eineStundeFahren();
+        System.out.println(auto.getZuruekgelegteStrecke());
+        auto.geschwindigkeitKmH = 20;
+        System.out.println(auto.getZuruekgelegteStrecke());
+        auto.eineStundeFahren();
+        System.out.println(auto.getZuruekgelegteStrecke());
+        */
+        
+        ArrayList<Teil2Auto> fuhrpark = new ArrayList<>();
+        fuhrpark.add(new Teil2Auto(50));
+        fuhrpark.add(new Teil2Auto(30));
+        fuhrpark.add(new Teil2Auto(-20));
 
 
+        for (Teil2Auto teil2Auto : fuhrpark) {
+            System.out.println(teil2Auto.getZuruekgelegteStrecke());
+            teil2Auto.eineStundeFahren();
+            System.out.println(teil2Auto.getZuruekgelegteStrecke());
+            teil2Auto.eineStundeFahren();
+            System.out.println(teil2Auto.getZuruekgelegteStrecke());
+        }
 
 
+        /*for (int i = 0; i < fuhrpark.size() ; i++) {
+            fuhrpark.get(i).eineStundeFahren();
+        }
+        */
+
+        fuhrpark.get(0).setGeschwindigkeitKmH(-100);
+
+        for (Teil2Auto teil2Auto : fuhrpark) {
+            System.out.println(teil2Auto.getZuruekgelegteStrecke());
+            teil2Auto.eineStundeFahren();
+            System.out.println(teil2Auto.getZuruekgelegteStrecke());
+        }
     }
 }
 

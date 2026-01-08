@@ -1,4 +1,4 @@
-public class Praktikant extends Person implements Identifizierbar {
+/* public class Praktikant extends Person implements Identifizierbar {
     private String praktikumsStelle;
     private String betreuer;
 
@@ -17,4 +17,4 @@ public class Praktikant extends Person implements Identifizierbar {
         return betreuer;
     }
 }
-}
+}*/

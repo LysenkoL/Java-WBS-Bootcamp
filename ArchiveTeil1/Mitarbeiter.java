@@ -1,4 +1,4 @@
-public class Mitarbeiter extends Person implements Identifizierbar{
+/*ublic class Mitarbeiter extends Person implements Identifizierbar{
     private String mitarbeiterID;
     private String abteilung;
 
@@ -18,3 +18,5 @@ public class Mitarbeiter extends Person implements Identifizierbar{
 
 
 }
+
+ */

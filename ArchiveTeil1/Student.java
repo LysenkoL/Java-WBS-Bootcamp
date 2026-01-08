@@ -1,4 +1,4 @@
- {public class Student extends Person implements Identifizierbar {
+ /*{public class Student extends Person implements Identifizierbar {
     private String martikelNummer;
     private String studiengang;
 
@@ -18,3 +18,4 @@
  }
 }
 
+*/

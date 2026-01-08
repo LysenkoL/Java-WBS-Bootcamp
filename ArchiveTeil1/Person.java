@@ -1,4 +1,4 @@
- public class Person {
+ /*public class Person {
     // Attribute für die Person-Klasse
     private String name;
     private int alter;
@@ -17,3 +17,5 @@
     }
 }{
 }
+
+  */
