@@ -47,7 +47,7 @@ public class Main {
 
         String aktuelleFarbeEingabe = scan.nextLine();
 
-        System.out.println("Deine nächste Gürtelfarbe ist " + KyuGrad.getFarbeVonZahl(KyuGrad.getZahlVonFarbe(aktuelleFarbeEingabe) + 1) );
+        System.out.println("Deine nächste Gürtelfarbe ist " + KyuGrad.getFarbeVonZahl(KyuGrad.getZahlVonFarbe(aktuelleFarbeEingabe) - 1) );
 
 
 
