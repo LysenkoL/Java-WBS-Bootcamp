@@ -29,6 +29,9 @@ public class Main {
                     + fahrzeug.getLackierung() + " " + fahrzeug.getMarke() + " " + fahrzeug.getFahrzeugTyp());
 
         }
+        System.out.println(auto1.getKennzeichen());
+
+
     }
 
 }

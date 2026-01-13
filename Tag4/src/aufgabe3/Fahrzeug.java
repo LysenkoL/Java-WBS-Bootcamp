@@ -3,10 +3,10 @@ package aufgabe3;
 import java.util.ArrayList;
 
 public class Fahrzeug {
-   String kennzeichen;
-   String lackierung;
-   String marke;
-   autoTyp fahrzeugTyp;
+   private String kennzeichen;
+   private String lackierung;
+   private String marke;
+   private autoTyp fahrzeugTyp;
 
 
     public Fahrzeug(String kennzeichen, String lackierung, String marke, autoTyp fahrzeugTyp) {
