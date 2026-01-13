@@ -1,0 +1,50 @@
+1) Was ist eine korrekte Syntax zum Instanziieren von Objekten?
+
+	a) test = new Test();
+	
+	b) Test Test = Test();
+
+	c) Test test = new Test();
+
+----------------------------------------------------------------------------------
+2) Welches Schlüsselwort wird verwendet, um ein Objekt zu Instanziieren?
+	
+	a) new
+	
+	b) class
+
+	c) Object
+
+----------------------------------------------------------------------------------
+3) Was ist der Hauptzweck eines Konstruktors in Java?
+
+    a) Einen neuen Namen für eine bereits vorhandene Methode zu erstellen.
+
+    b) Eine Klasse zu instanziieren und ihre Instanzvariablen zu initialisieren.
+
+    c) Die Sichtbarkeit von Klassenattributen einzuschränken.
+
+    d) Eine Methode zur Laufzeit dynamisch zu erstellen.
+
+----------------------------------------------------------------------------------
+4) Was ist der Unterschied zwischen private und public in Java?
+
+       a) Mit private können Variablen oder Methoden nur innerhalb derselben Klasse aufgerufen werden,
+       während mit public der Zugriff von überall im Programm möglich ist.
+
+       b) Private erlaubt den Zugriff auf Variablen oder Methoden von überall im Programm,
+       während public die Sichtbarkeit auf die aktuelle Klasse beschränkt.
+
+       c) Private und public sind austauschbare Schlüsselwörter, die keinen Einfluss auf den Zugriff haben.
+
+----------------------------------------------------------------------------------
+5) Welche der folgenden Aussagen über Konstruktoren in Java ist korrekt?
+
+    a) Ein Konstruktor hat immer den gleichen Namen wie die Klasse.
+
+    b) Ein Konstruktor kann Rückgabewerte haben.
+
+    c) Eine Klasse kann mehrere Konstruktoren haben, solange sie unterschiedliche Parameterlisten haben.
+
+    d) Die Verwendung von Schlüsselworten wie "this" oder "super" ist in einem Konstruktor nicht erlaubt.
+
