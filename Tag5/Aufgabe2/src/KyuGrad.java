@@ -30,7 +30,7 @@ public enum KyuGrad {
     public static int getZahlVonFarbe (String farbeEingabe){
         for (int i = 0; i < KyuGrad.values().length; i++) {
 
-            if (KyuGrad.values()[i].name().equals(farbeEingabe))
+            if (KyuGrad.values()[i].name().equalsIgnoreCase(farbeEingabe))
                 //return KyuGrad.values()[i].zahlGrad;
                 //return KyuGrad.values()[i].ordinal() + 1;
                 return i+1;

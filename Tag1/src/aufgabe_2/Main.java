@@ -18,6 +18,13 @@ package aufgabe_2;
 
 public class Main {
     public static void main(String[] args) {
-        // Твой код будет здесь
+        Roboter robot = new Roboter();
+        robot.setBatterieLaufzeit(5);
+        robot.setAufgabe("Ich reiche Butter");
+
+        for (int i = 0; i < 5; i++) {
+            robot.fuehreAufgabeAus();
+        }
+
     }
 }

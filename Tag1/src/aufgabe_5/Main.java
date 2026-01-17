@@ -30,8 +30,25 @@ Die höchste Temperatur war am Montag mit 28.3 Grad Celsius.
 
 package aufgabe_5;
 
+import java.util.Random;
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        // Твой код будет здесь
+
+        Scanner sc = new Scanner(System.in);
+        TemperatureRecord [] arrTemp = new TemperatureRecord[7];
+
+        for (int i = 0; i < arrTemp.length; i++) {
+            arrTemp[i] = new TemperatureRecord();
+            String [] woche = {"Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"};
+            arrTemp[i].setDay(woche[i]);
+            System.out.println("Gebben Sie die Temperature für " + woche[i] + " ein: ");
+            arrTemp[i].setTemperature(sc.nextDouble());
+        }
+
+        TemperatureRecord.findMinAndMaxTemperature (arrTemp);
+
+        sc.close();
     }
 }

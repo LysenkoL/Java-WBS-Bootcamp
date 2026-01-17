@@ -22,15 +22,19 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        int punkt = 0;
-        boolean eingabeerfolg = false;
 
-        while (eingabeerfolg == false) {
-            System.out.println("Geben Sie Ihre Punkte ein (0-100):");
-                punkt = scan.nextInt();
-        }
+        int convertEingabe;
+
+        do{
+            System.out.println("Geben Sie Ihre Punktzahl zwischen 0 und 100 ein:");
+            String eingabe = scan.nextLine();
+            convertEingabe= Integer.parseInt(eingabe);
+        } while (convertEingabe<0 || convertEingabe>100 );
+
+        System.out.println("Ihre Punktzahl  entspricht Niveau: " + Ihk.getNiveau(convertEingabe));
 
 
+        scan.close();
     }
 
 

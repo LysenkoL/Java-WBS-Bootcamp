@@ -46,14 +46,12 @@ public class Main {
         System.out.println("Geben Sie bitte Ihre aktualle Gürtelfarbe um zu wissen, welche Farbe wird nächste");
 
         String aktuelleFarbeEingabe = scan.nextLine();
-
-        System.out.println("Deine nächste Gürtelfarbe ist " + KyuGrad.getFarbeVonZahl(KyuGrad.getZahlVonFarbe(aktuelleFarbeEingabe) - 1) );
-
-
-
-
-
-
-
+        int aktuellNummer = KyuGrad.getZahlVonFarbe(aktuelleFarbeEingabe);
+        if (aktuellNummer==1) {
+            System.out.println("Sie haben die Beste Farbe,  weiter gibt es nicht mehr! Bravo");
+        }
+        else{
+            System.out.println("Deine nächste Gürtelfarbe ist " + KyuGrad.getFarbeVonZahl(aktuellNummer - 1) );
+        }
     }
 }

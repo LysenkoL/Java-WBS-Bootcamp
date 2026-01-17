@@ -13,8 +13,14 @@
 
 package aufgabe_4;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        // Твой код будет здесь
+
+        Schachfeld feld = new Schachfeld();
+        System.out.println("Zufallsfeld " + feld.getZufallsfeld());
+        System.out.println("Zufallsfeld " + feld.getZufallsfeld());
+        System.out.println("Zufallsfeld " + feld.getZufallsfeld());
     }
 }

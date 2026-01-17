@@ -15,6 +15,18 @@ package aufgabe_3;
 
 public class Main {
     public static void main(String[] args) {
-        // Твой код будет здесь
+
+        Produkt firstProd =  new Produkt();
+        firstProd.setName("Tea");
+        firstProd.setMindestpreis(15);
+        firstProd.setVerkaufspreis(20);
+
+        Produkt secondProd = new Produkt();
+        secondProd.setName("Kaffee");
+        secondProd.setMindestpreis(25);
+        secondProd.setVerkaufspreis(10);
+
+        System.out.println("First Produkt : " + firstProd.getName() + " Verkaufspreis: " + firstProd.getVerkaufspreis());
+        System.out.println("Second Produkt : " + secondProd.getName() + " Verkaufspreis: " + secondProd.getVerkaufspreis());
     }
 }
