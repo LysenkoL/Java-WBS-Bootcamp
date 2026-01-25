@@ -2,16 +2,20 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Tag5/Aufgabe2/Aufgabe2.iml" filepath="$PROJECT_DIR$/Tag5/Aufgabe2/Aufgabe2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Tag3/EinModul/EinModul.iml" filepath="$PROJECT_DIR$/Tag3/EinModul/EinModul.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Tag 02 Klassen/Tag 02 Klassen.iml" filepath="$PROJECT_DIR$/Tag 02 Klassen/Tag 02 Klassen.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Tag1/Tag1.iml" filepath="$PROJECT_DIR$/Tag1/Tag1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Tag3/Tag3.iml" filepath="$PROJECT_DIR$/Tag3/Tag3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Tag4/Tag4.iml" filepath="$PROJECT_DIR$/Tag4/Tag4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Tag5/Tag5.iml" filepath="$PROJECT_DIR$/Tag5/Tag5.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Tag6/Tag6.iml" filepath="$PROJECT_DIR$/Tag6/Tag6.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Tag7/Tag7.iml" filepath="$PROJECT_DIR$/Tag7/Tag7.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Tag3/Tennis/Tennis.iml" filepath="$PROJECT_DIR$/Tag3/Tennis/Tennis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aaron UML/Aaron UML.iml" filepath="$PROJECT_DIR$/Aaron UML/Aaron UML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tag5 Enums/Aufgabe2/Aufgabe2.iml" filepath="$PROJECT_DIR$/Tag5 Enums/Aufgabe2/Aufgabe2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tag3 Wiederholung/EinModul/EinModul.iml" filepath="$PROJECT_DIR$/Tag3 Wiederholung/EinModul/EinModul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tag1/Tag1 Klassen.iml" filepath="$PROJECT_DIR$/Tag1/Tag1 Klassen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tag12 Vererbung/Tag12 Vererbung.iml" filepath="$PROJECT_DIR$/Tag12 Vererbung/Tag12 Vererbung.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tag13 interfaces exceptions/Tag13 interfaces exceptions.iml" filepath="$PROJECT_DIR$/Tag13 interfaces exceptions/Tag13 interfaces exceptions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tag2 Klassen/Tag2 Klassen.iml" filepath="$PROJECT_DIR$/Tag2 Klassen/Tag2 Klassen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tag3 Wiederholung/Tag3.iml" filepath="$PROJECT_DIR$/Tag3 Wiederholung/Tag3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tag4 Enums/Tag4.iml" filepath="$PROJECT_DIR$/Tag4 Enums/Tag4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tag5 Enums/Tag5.iml" filepath="$PROJECT_DIR$/Tag5 Enums/Tag5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tag6 Assoziationen/Tag6.iml" filepath="$PROJECT_DIR$/Tag6 Assoziationen/Tag6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tag7 Assoziationen/Tag7.iml" filepath="$PROJECT_DIR$/Tag7 Assoziationen/Tag7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tag9 Vererbung/Tag9 Vererbung.iml" filepath="$PROJECT_DIR$/Tag9 Vererbung/Tag9 Vererbung.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tag3 Wiederholung/Tennis/Tennis.iml" filepath="$PROJECT_DIR$/Tag3 Wiederholung/Tennis/Tennis.iml" />
       <module fileurl="file://$PROJECT_DIR$/java.iml" filepath="$PROJECT_DIR$/java.iml" />
     </modules>
   </component>
